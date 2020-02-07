@@ -11,5 +11,5 @@ import org.springframework.stereotype.Repository;
  **/
 
 @Repository
-public interface OrgLifeDao extends JpaRepository<OrgLife,Long> {
+public interface OrgLifeDao extends JpaRepository<OrgLife,Integer> {
 }
